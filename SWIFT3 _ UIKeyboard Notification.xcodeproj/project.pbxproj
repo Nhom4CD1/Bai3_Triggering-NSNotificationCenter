@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057B4BB11EBB888200585EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B4BB01EBB888200585EB1 /* AppDelegate.swift */; };
+		057B4BB31EBB888200585EB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B4BB21EBB888200585EB1 /* ViewController.swift */; };
+		057B4BB61EBB888200585EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057B4BB41EBB888200585EB1 /* Main.storyboard */; };
+		057B4BB81EBB888200585EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057B4BB71EBB888200585EB1 /* Assets.xcassets */; };
+		057B4BBB1EBB888200585EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057B4BB91EBB888200585EB1 /* LaunchScreen.storyboard */; };
+		057B4BC61EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B4BC51EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationTests.swift */; };
+		057B4BD11EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057B4BD01EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		057B4BC21EBB888300585EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057B4BA51EBB888100585EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057B4BAC1EBB888200585EB1;
+			remoteInfo = "SWIFT3 _ UIKeyboard Notification";
+		};
+		057B4BCD1EBB888300585EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 057B4BA51EBB888100585EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057B4BAC1EBB888200585EB1;
+			remoteInfo = "SWIFT3 _ UIKeyboard Notification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057B4BAD1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWIFT3 _ UIKeyboard Notification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057B4BB01EBB888200585EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		057B4BB21EBB888200585EB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		057B4BB51EBB888200585EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		057B4BB71EBB888200585EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		057B4BBA1EBB888200585EB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		057B4BBC1EBB888200585EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057B4BC11EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWIFT3 _ UIKeyboard NotificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057B4BC51EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWIFT3___UIKeyboard_NotificationTests.swift"; sourceTree = "<group>"; };
+		057B4BC71EBB888300585EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057B4BCC1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWIFT3 _ UIKeyboard NotificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057B4BD01EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWIFT3___UIKeyboard_NotificationUITests.swift"; sourceTree = "<group>"; };
+		057B4BD21EBB888300585EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		057B4BAA1EBB888200585EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057B4BBE1EBB888300585EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057B4BC91EBB888300585EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057B4BA41EBB888100585EB1 = {
+			isa = PBXGroup;
+			children = (
+				057B4BAF1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification */,
+				057B4BC41EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests */,
+				057B4BCF1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests */,
+				057B4BAE1EBB888200585EB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		057B4BAE1EBB888200585EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				057B4BAD1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification.app */,
+				057B4BC11EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests.xctest */,
+				057B4BCC1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		057B4BAF1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification */ = {
+			isa = PBXGroup;
+			children = (
+				057B4BB01EBB888200585EB1 /* AppDelegate.swift */,
+				057B4BB21EBB888200585EB1 /* ViewController.swift */,
+				057B4BB41EBB888200585EB1 /* Main.storyboard */,
+				057B4BB71EBB888200585EB1 /* Assets.xcassets */,
+				057B4BB91EBB888200585EB1 /* LaunchScreen.storyboard */,
+				057B4BBC1EBB888200585EB1 /* Info.plist */,
+			);
+			path = "SWIFT3 _ UIKeyboard Notification";
+			sourceTree = "<group>";
+		};
+		057B4BC41EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				057B4BC51EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationTests.swift */,
+				057B4BC71EBB888300585EB1 /* Info.plist */,
+			);
+			path = "SWIFT3 _ UIKeyboard NotificationTests";
+			sourceTree = "<group>";
+		};
+		057B4BCF1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				057B4BD01EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationUITests.swift */,
+				057B4BD21EBB888300585EB1 /* Info.plist */,
+			);
+			path = "SWIFT3 _ UIKeyboard NotificationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		057B4BAC1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057B4BD51EBB888300585EB1 /* Build configuration list for PBXNativeTarget "SWIFT3 _ UIKeyboard Notification" */;
+			buildPhases = (
+				057B4BA91EBB888200585EB1 /* Sources */,
+				057B4BAA1EBB888200585EB1 /* Frameworks */,
+				057B4BAB1EBB888200585EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWIFT3 _ UIKeyboard Notification";
+			productName = "SWIFT3 _ UIKeyboard Notification";
+			productReference = 057B4BAD1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		057B4BC01EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057B4BD81EBB888300585EB1 /* Build configuration list for PBXNativeTarget "SWIFT3 _ UIKeyboard NotificationTests" */;
+			buildPhases = (
+				057B4BBD1EBB888300585EB1 /* Sources */,
+				057B4BBE1EBB888300585EB1 /* Frameworks */,
+				057B4BBF1EBB888300585EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				057B4BC31EBB888300585EB1 /* PBXTargetDependency */,
+			);
+			name = "SWIFT3 _ UIKeyboard NotificationTests";
+			productName = "SWIFT3 _ UIKeyboard NotificationTests";
+			productReference = 057B4BC11EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		057B4BCB1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057B4BDB1EBB888400585EB1 /* Build configuration list for PBXNativeTarget "SWIFT3 _ UIKeyboard NotificationUITests" */;
+			buildPhases = (
+				057B4BC81EBB888300585EB1 /* Sources */,
+				057B4BC91EBB888300585EB1 /* Frameworks */,
+				057B4BCA1EBB888300585EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				057B4BCE1EBB888300585EB1 /* PBXTargetDependency */,
+			);
+			name = "SWIFT3 _ UIKeyboard NotificationUITests";
+			productName = "SWIFT3 _ UIKeyboard NotificationUITests";
+			productReference = 057B4BCC1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		057B4BA51EBB888100585EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HCMUTE;
+				TargetAttributes = {
+					057B4BAC1EBB888200585EB1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					057B4BC01EBB888300585EB1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 057B4BAC1EBB888200585EB1;
+					};
+					057B4BCB1EBB888300585EB1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 057B4BAC1EBB888200585EB1;
+					};
+				};
+			};
+			buildConfigurationList = 057B4BA81EBB888100585EB1 /* Build configuration list for PBXProject "SWIFT3 _ UIKeyboard Notification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 057B4BA41EBB888100585EB1;
+			productRefGroup = 057B4BAE1EBB888200585EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057B4BAC1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification */,
+				057B4BC01EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationTests */,
+				057B4BCB1EBB888300585EB1 /* SWIFT3 _ UIKeyboard NotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		057B4BAB1EBB888200585EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057B4BBB1EBB888200585EB1 /* LaunchScreen.storyboard in Resources */,
+				057B4BB81EBB888200585EB1 /* Assets.xcassets in Resources */,
+				057B4BB61EBB888200585EB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057B4BBF1EBB888300585EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057B4BCA1EBB888300585EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		057B4BA91EBB888200585EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057B4BB31EBB888200585EB1 /* ViewController.swift in Sources */,
+				057B4BB11EBB888200585EB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057B4BBD1EBB888300585EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057B4BC61EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057B4BC81EBB888300585EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057B4BD11EBB888300585EB1 /* SWIFT3___UIKeyboard_NotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057B4BC31EBB888300585EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 057B4BAC1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification */;
+			targetProxy = 057B4BC21EBB888300585EB1 /* PBXContainerItemProxy */;
+		};
+		057B4BCE1EBB888300585EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 057B4BAC1EBB888200585EB1 /* SWIFT3 _ UIKeyboard Notification */;
+			targetProxy = 057B4BCD1EBB888300585EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		057B4BB41EBB888200585EB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				057B4BB51EBB888200585EB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		057B4BB91EBB888200585EB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				057B4BBA1EBB888200585EB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		057B4BD31EBB888300585EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		057B4BD41EBB888300585EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		057B4BD61EBB888300585EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SWIFT3 _ UIKeyboard Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.SWIFT3---UIKeyboard-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		057B4BD71EBB888300585EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SWIFT3 _ UIKeyboard Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.SWIFT3---UIKeyboard-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		057B4BD91EBB888300585EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SWIFT3 _ UIKeyboard NotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.SWIFT3---UIKeyboard-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIFT3 _ UIKeyboard Notification.app/SWIFT3 _ UIKeyboard Notification";
+			};
+			name = Debug;
+		};
+		057B4BDA1EBB888300585EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SWIFT3 _ UIKeyboard NotificationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.SWIFT3---UIKeyboard-NotificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIFT3 _ UIKeyboard Notification.app/SWIFT3 _ UIKeyboard Notification";
+			};
+			name = Release;
+		};
+		057B4BDC1EBB888400585EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SWIFT3 _ UIKeyboard NotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.SWIFT3---UIKeyboard-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SWIFT3 _ UIKeyboard Notification";
+			};
+			name = Debug;
+		};
+		057B4BDD1EBB888400585EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SWIFT3 _ UIKeyboard NotificationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.SWIFT3---UIKeyboard-NotificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SWIFT3 _ UIKeyboard Notification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		057B4BA81EBB888100585EB1 /* Build configuration list for PBXProject "SWIFT3 _ UIKeyboard Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057B4BD31EBB888300585EB1 /* Debug */,
+				057B4BD41EBB888300585EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057B4BD51EBB888300585EB1 /* Build configuration list for PBXNativeTarget "SWIFT3 _ UIKeyboard Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057B4BD61EBB888300585EB1 /* Debug */,
+				057B4BD71EBB888300585EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		057B4BD81EBB888300585EB1 /* Build configuration list for PBXNativeTarget "SWIFT3 _ UIKeyboard NotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057B4BD91EBB888300585EB1 /* Debug */,
+				057B4BDA1EBB888300585EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		057B4BDB1EBB888400585EB1 /* Build configuration list for PBXNativeTarget "SWIFT3 _ UIKeyboard NotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057B4BDC1EBB888400585EB1 /* Debug */,
+				057B4BDD1EBB888400585EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 057B4BA51EBB888100585EB1 /* Project object */;
+}
